@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Dev-Events
 
-## Getting Started
+Dev-Events is a modern web application built with Next.js that helps developers discover, explore, and stay updated with upcoming tech events, hackathons, conferences, and meetups.
 
-First, run the development server:
+---
+
+## 🌟 Features
+
+- 📅 Browse upcoming developer events
+- 🔍 Search and filter functionality
+- 🏷️ Event categories (Hackathons, Conferences, Meetups, Workshops)
+- 📍 Dedicated event detail pages
+- 💻 Fully responsive design
+- ⚡ Fast and optimized performance with Next.js
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js
+- **Language:** TypeScript
+- **Styling:** CSS / Tailwind CSS
+- **Package Manager:** npm
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/rakshit-2oo4/Dev-Events.git
+```
+
+Navigate into the project directory:
+
+```bash
+cd Dev-Events
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## 🚀 Running the Project
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🏗️ Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+Build the project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Start the production server:
 
-## Deploy on Vercel
+```bash
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📁 Project Structure
+
+```
+Dev-Events/
+│
+├── app/              # Application routing and pages
+├── components/       # Reusable UI components
+├── public/           # Static assets
+├── styles/           # Global styles
+├── package.json
+└── README.md
+```
+
+---
+
+## 🎯 Future Improvements
+
+- 🔐 Authentication system
+- 🗂️ Admin dashboard for managing events
+- 🌍 Integration with live event APIs
+- ⭐ Bookmark / Save events feature
+- 📧 Email notifications for upcoming events
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository  
+2. Create your feature branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add YourFeature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Open a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+Developed by **Rakshit**
+
+If you like this project, consider giving it a ⭐ on GitHub!
